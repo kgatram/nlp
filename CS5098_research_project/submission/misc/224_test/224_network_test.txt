@@ -1,0 +1,1 @@
+Time taken for testing 100 images of 224*224 network is 13.405916690826416 seconds.Time taken for testing 100 images of 224*224 network is 13.270909547805786 seconds.

@@ -1,0 +1,43 @@
+---------------------------------------------------
+
+ function list of the model: 
+ ['T_destination', '__annotations__', '__call__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_apply', '_backward_hooks', '_backward_pre_hooks', '_buffers', '_call_impl', '_forward_hooks', '_forward_hooks_with_kwargs', '_forward_pre_hooks', '_forward_pre_hooks_with_kwargs', '_get_backward_hooks', '_get_backward_pre_hooks', '_get_intermediate_layers_chunked', '_get_intermediate_layers_not_chunked', '_get_name', '_is_full_backward_hook', '_load_from_state_dict', '_load_state_dict_post_hooks', '_load_state_dict_pre_hooks', '_maybe_warn_non_full_backward_hook', '_modules', '_named_members', '_non_persistent_buffers_set', '_parameters', '_register_load_state_dict_pre_hook', '_register_state_dict_hook', '_replicate_for_data_parallel', '_save_to_state_dict', '_slow_forward', '_state_dict_hooks', '_state_dict_pre_hooks', '_version', 'add_module', 'apply', 'bfloat16', 'blocks', 'buffers', 'call_super_init', 'children', 'chunked_blocks', 'cls_token', 'cpu', 'cuda', 'double', 'dump_patches', 'embed_dim', 'eval', 'extra_repr', 'float', 'forward', 'forward_features', 'forward_features_list', 'get_buffer', 'get_extra_state', 'get_intermediate_layers', 'get_parameter', 'get_submodule', 'half', 'head', 'init_weights', 'interpolate_pos_encoding', 'ipu', 'load_state_dict', 'mask_token', 'modules', 'n_blocks', 'named_buffers', 'named_children', 'named_modules', 'named_parameters', 'norm', 'num_features', 'num_heads', 'num_tokens', 'parameters', 'patch_embed', 'patch_size', 'pos_embed', 'prepare_tokens_with_masks', 'register_backward_hook', 'register_buffer', 'register_forward_hook', 'register_forward_pre_hook', 'register_full_backward_hook', 'register_full_backward_pre_hook', 'register_load_state_dict_post_hook', 'register_module', 'register_parameter', 'register_state_dict_pre_hook', 'requires_grad_', 'set_extra_state', 'share_memory', 'state_dict', 'to', 'to_empty', 'train', 'training', 'type', 'xpu', 'zero_grad']
+---------------------------------------------------
+
+
+ size of the image: 
+ torch.Size([1, 3, 224, 224])
+
+ image: 
+ tensor([[[[-1.9295, -1.9124, -1.9124,  ...,  1.4269,  1.4098,  1.2043],
+          [-1.9638, -1.9124, -1.9467,  ...,  1.4269,  1.3413,  1.8722],
+          [-1.9467, -1.9295, -1.9295,  ...,  1.3070,  1.8550,  1.9407],
+          ...,
+          [-1.9467, -1.9467, -1.9467,  ..., -1.9809, -1.9809, -1.9809],
+          [-1.9638, -1.9467, -1.9295,  ..., -1.9809, -1.9809, -1.9638],
+          [-1.9124, -1.8782, -1.8439,  ..., -1.9638, -1.9809, -1.9467]],
+
+         [[-1.4755, -1.4930, -1.4930,  ...,  1.8333,  1.5707,  1.2031],
+          [-1.5630, -1.5630, -1.5630,  ...,  1.6408,  1.3081,  1.8859],
+          [-1.6155, -1.6331, -1.6155,  ...,  1.2906,  1.9034,  2.0434],
+          ...,
+          [-1.8256, -1.8256, -1.8081,  ..., -1.8081, -1.8431, -1.8256],
+          [-1.8431, -1.8256, -1.8081,  ..., -1.7731, -1.8256, -1.8256],
+          [-1.7906, -1.7556, -1.7206,  ..., -1.7381, -1.8081, -1.8256]],
+
+         [[-1.3339, -1.3339, -1.3339,  ...,  2.2391,  1.7163,  1.1237],
+          [-1.4210, -1.4036, -1.4210,  ...,  1.8034,  1.2108,  1.9603],
+          [-1.4733, -1.4733, -1.4733,  ...,  1.1934,  1.9254,  2.1520],
+          ...,
+          [-1.6476, -1.6476, -1.6302,  ..., -1.6476, -1.6824, -1.6650],
+          [-1.6650, -1.6476, -1.6302,  ..., -1.5953, -1.6650, -1.6476],
+          [-1.6127, -1.5779, -1.5604,  ..., -1.5604, -1.6476, -1.6476]]]])
+---------------------------------------------------
+
+
+ size of the feature list: 
+ torch.Size([1, 1536])
+
+ features: 
+ tensor([[ 2.4666, -0.8247, -0.2623,  ..., -0.5060,  0.8688,  0.8005]])
+---------------------------------------------------
