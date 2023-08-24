@@ -1,0 +1,16 @@
+About this file
+The Parameters of the Dataset are given below:
+
+name -> The name of the planet.
+
+mass -> Mass of the planet in Jupiters (1 Jupiter = 1.898 × 1027 kg).
+
+radius -> Average radius of the planet in Jupiters (1 Jupiter = 69911 km).
+
+period -> Orbital period of the planet in Earth days.
+
+semi_major_axis -> Semi major axis of planet in astronomical units (AU).
+
+temperature -> Average surface temperature of the planet in Kelvin.
+
+distance_light_year -> Distance the planet is from Earth in light years.

@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.viz {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.navbar{
+    background-color: #000;
+    border-color: #000;
+    padding-left: 2%;
+    padding-right: 2%;
+}

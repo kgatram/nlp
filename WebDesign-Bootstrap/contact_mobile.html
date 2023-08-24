@@ -1,0 +1,56 @@
+<!--     Module: IS5103-->
+<!-- Assignment: A2 Web design-->
+<!--       Date: Nov 2022-->
+<!-- Student ID: 220025456-->
+<!--Description: AWD Index page for Mobile Device Galaxy S9 size 320 x 658 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4our News Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style_mobile.css">
+
+</head>
+<body>
+<!--PAGE HEADER-->
+    <div id="TOP" class="grid-container">
+      <div  >
+        <h1 class="head1">4our News Channel</h1>
+        <h3 class="head2">Keep it real!</h3>
+      </div>
+
+      <div class="icon">
+        <a href="index_mobile.html"><img class="icn" src="photos/homepage.png" alt="homepage icon"></a>
+      </div>
+    </div>
+
+<!--Contact form-->
+  <div class="grid-form">
+    <form>
+      <h4>Send a message to contact us.</h4>
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label> <br>
+        <input type="text" class="form-control" id="name" placeholder=" Joe Bloggs">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label> <br>
+        <input type="email" class="form-control" id="email" placeholder=" youremail@email.com">
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label> <br>
+        <textarea class="form-text" id="message" rows="8" cols="31" placeholder=" Type your message here..."></textarea>
+      </div>
+
+
+        <input type="button" class="btn" onclick="alert('✔ Message sent.')"  value="Submit">
+
+    </form>
+  </div>
+
+</body>
+</html>

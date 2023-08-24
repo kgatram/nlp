@@ -1,0 +1,9 @@
+# list all required Python packages needed for your submission
+# IMPORTANT: 
+#    - Please check the practical spec for the allowed packages
+#    - Please make sure the package versions work on the school lab machines
+
+matplotlib==3.6.2
+numpy==1.23.5
+scikit_learn==1.1.3
+torch==2.0.0+cu117

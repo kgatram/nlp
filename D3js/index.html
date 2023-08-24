@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>D3.js Solar System Visualization</title>
+</head>
+
+<body>
+    <div class="viz">
+        <div class="fixed-top navbar">
+            <label for="customRange1" class="form-label">Slide towards the Earth</label>
+            <input type="range" min="1" max="2010" value="1" step="2" class="form-range" id="slider">
+            <a class="btn btn-primary btn-sm" href="index.html">Reset</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h2>Exo Planets Visualization using D3.js</h2>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h4>About the Visualization</h4>
+                <p>There are close to 800 Exoplanets that were discovered until now. This Visualization gives the view
+                    of
+                    all
+                    those planets from the outer most planet to the inner most planet from where all these were found,
+                    that
+                    is
+                    Earth.
+                </p>
+                <p>
+                    Zoom Slide to take a planet trek journey through the outer space towards the Earth at the center.
+                </p>
+                <p>
+                    Click on the planets to view
+                    more details.
+                </p>
+                <p>
+                    Hover over the planets to view
+                    more details.
+                </p>
+            </div>
+            <div class="col">
+                <p>
+                    Note:
+                </p>
+                <p>
+                    1. The size of the planets are proportional to the distance from the Earth.
+                </p>
+                <p>
+                    2. The Planets whose values are not available are filled with black color.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="tooltip">
+                    <p id="name"></p>
+                    <p id="distance"></p>
+                    <p id="mass"></p>
+                    <p id="radius"></p>
+                    <p id="period"></p>
+                    <p id="temperature"></p>
+                    <p id="semi_major_axis"></p>
+                    <p id="host_star_temperature"></p>
+                    <p id="host_star_mass"></p>
+                </div>
+                <div class="col" id="barchart"></div>
+                <div class="col">
+                    <p id="tooltip-earth">
+                    <p id="name-earth"></p>
+                    <p id="distance-earth"></p>
+                    <p id="mass-earth"></p>
+                    <p id="radius-earth"></p>
+                    <p id="period-earth"></p>
+                    <p id="temperature-earth"></p>
+                    <p id="semi_major_axis-earth"></p>
+                    <p id="host_star_temperature-earth"></p>
+                    <p id="host_star_mass-earth"></p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h4>Exo-Planets</h4>
+    </div>
+    <div class="container" id="svg-container"></div>
+    <div class="container">
+        <hr>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="planets.js"></script>
+    </div>
+</body>
+
+</html>

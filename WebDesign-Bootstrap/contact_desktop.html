@@ -1,0 +1,55 @@
+<!--     Module: IS5103-->
+<!-- Assignment: A2 Web design-->
+<!--       Date: Nov 2022-->
+<!-- Student ID: 220025456-->
+<!--Description: AWD Article page for Desktop screen width 1520 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4our News Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style_desktop.css">
+
+</head>
+<body>
+<!--PAGE HEADER-->
+    <div id="TOP" class="grid-container">
+      <div  >
+        <h1 class="head1">4our News Channel</h1>
+        <h3 class="head2">Keep it real!</h3>
+      </div>
+
+      <div class="icon">
+        <a href="index_desktop.html"><img class="icn" src="photos/homepage.png" alt="homepage icon"></a>
+      </div>
+    </div>
+
+<!--Contact form-->
+  <div class="grid-form">
+    <form>
+      <h2>Send a message to contact us.</h2>
+
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label> <br>
+        <input type="text" class="form-control onfocus" id="name" placeholder="Joe Bloggs">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label> <br>
+        <input type="email" class="form-control onfocus" id="email" placeholder="youremail@email.com">
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label> <br>
+        <textarea class="form-text onfocus" id="message" rows="6" cols="136" placeholder="Type your message here..."></textarea>
+      </div>
+
+
+        <input type="button" class="btn" onclick="alert('✔ Message sent.')"  value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
